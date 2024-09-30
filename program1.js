@@ -6,7 +6,7 @@ var isValid = function(s) {
     let size = s.length;
     let st = [];
 
-    if (size === 1) return false;
+    if (size === 100) return false;
 
     for (let i = 0; i < size; i++) {
         if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
